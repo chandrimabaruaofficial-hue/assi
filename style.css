@@ -1,0 +1,405 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+     background-color: rgb(233, 233, 239) ;
+}
+
+
+header{
+    background-image: url(/Assets/Hero-bg.png);
+}
+nav{
+    padding: 20px;
+    width: 80vw;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30x;
+    color: blue;
+    font-family: inter;
+    
+}
+
+.button1{
+    width: 90px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #4E47FF;
+}
+
+.button2{
+    width: 150px;
+    padding: 10px; 
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #4E47FF;
+    margin-top: 30px;
+
+}
+
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:450px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Raleway;
+}
+
+.button3{
+    width: 190px;
+    padding: 10px; 
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #4E47FF;
+    margin-top: 30px;
+}
+
+
+
+.content1{
+    width: 90%;
+    margin: 90px auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.article1 h3{
+    font-size: 30px;
+    font-family: raleway;
+}
+
+.article1 p{
+    margin-top: 15px;
+    font-family: raleway;
+    color: rgba(79, 78, 83, 0.704);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.image img{
+    border-radius: 48px;
+
+}
+.content2{
+    border-radius:20px;
+    width: 90%;
+    margin: 90px auto;
+    background-color: #dcdbf2fd;
+}
+.content3{
+    /* background-color: #fff; */
+    width: 90%;
+    margin: 90px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.content4{
+    padding: 40px;
+    border-radius: 14px;
+    width: 90%;
+    margin: 90px auto;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article2{
+
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article2 h4{
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 25px;
+}
+.rate{
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.num{
+    margin: 15px 60px;
+    font-size: 30px;
+}
+
+.num h2{
+    font-family: inter;
+    color: #4E47FF;
+}
+
+.num p{
+    font-family: inter;
+    font-size: 12px;
+    font-weight: 300;
+    color: gray;
+}
+
+.box{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    /* background-color: lightgreen; */
+    justify-content: space-between;
+
+}
+
+.first{
+    padding: 30px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.second{
+    padding: 30px;
+
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.third{
+    padding: 30px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+.avatar{
+    display: flex;
+}
+
+.content3 h2{
+    font-family: raleway;
+    font-weight: 700;
+}
+
+.box h5{
+margin-top: 10px;
+font-family: inter;
+font-size: 18px;
+font-weight: 700;
+}
+
+.a p{
+    margin-top: 10px;
+    font-family: inter;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.avatar{
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.avatar img{
+    border-radius: 50%;
+}
+
+.avatar h6{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(117, 117, 117, 1);
+}
+
+.avatar p{
+            font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(179, 179, 179, 1);
+}
+
+.content4 img{
+    margin-top: 40px;
+    border-radius: 30px;
+    width: 840px;
+}
+
+.content4 h2{
+    
+margin-top: 40px;
+font-family: Raleway;
+font-size: 50px;
+
+
+}
+
+.content4 p{
+    margin-top: 20px;
+
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.content4 button{   
+    width: 190px;
+    padding: 10px; 
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #4E47FF;
+    margin-top: 30px;   
+}
+
+.content5{
+
+    gap: 40px;
+    align-items: center;
+    
+    width: 90%;
+    margin: 90px auto;
+    /* background-color: rgb(127, 171, 141); */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.left h1 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.right {
+    padding: 30px;
+}
+
+.contact-form {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+
+    font-family: inter;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-top: 6px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 100px;
+
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #4E47FF;
+    margin-top: 30px; 
+    
+}
+
+
+
+footer{
+    padding: 80px;
+    background-color:  rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot h1{
+    font-family:   Inter ;
+    color: rgba(78, 71, 255, 1);
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 100%;
+}
+
+.foot p{
+    margin-top: 20px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(137, 135, 161, 1); 
+}
+
+.list{
+    margin-top: 20px;
+}
+
+.list a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    margin-right: 50px;
+    font-family: Inter;
+}
